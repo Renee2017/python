@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form action="http://127.0.0.1/2_test.php" method="post">
+            <!-- get方式提交会在url中展示参数，放在web根目录中以网页形式打开-->
+            <!-- form表单是html用来提交数据的标签，action后面跟表单提交的网页页面，一般是动态页面（如php）,静态页面（如html）不处理数据，只有把所有内容放在表单中才能用submit提交 -->
+            <!-- input变形金刚，type属性值不同，text：文本框，password：密码框 -->
+    姓名: <input type="text" name="username"><br>
+    密码: <input type="password" name="password"><br>
+    性别: <input type="radio" name="one">男
+          <input type="radio" name="one">女 <br>
+    爱好: <input type="checkbox"> 游泳  
+          <input type="checkbox"> 兵乓球 
+          <input type="checkbox"> 跳绳
+          
+          <br>
+          来自<select>
+                <option> 北京</option>
+                <option >上海</option>
+                <option>天津</option>
+            </select><br>
+          意见：<textarea cols="30" rows="10"></textarea>
+
+          <input type="button" value="点我试试">
+          <input type="submit">
+          <!-- submit是特定属性的input标签，必须在form表单内 -->
+        </form>
+        </body>
+
+</html>
