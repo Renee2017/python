@@ -1,5 +1,5 @@
 # 整数类型(clss'int')
-age=18;
+age=18
 print(type(age))
 # 浮点型(class'float')
 height=1.2

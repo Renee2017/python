@@ -8,7 +8,7 @@ import unittest
 # 2.实例化创建加载对象并添加用例
 # unittest.TestLoader().discover(”用例所在的路径“，”用例的代码文件名“)
 #  2.实例化创建加载对象并添加用例,用例所在的路径，建议使用相对路径，用例的代码文件名可以使用*通配符
-suite=unittest.TestLoader().discover('./execise','lx_12_unittest_testcase1.py')
+suite=unittest.TestLoader().discover('./execise','lx_12_unit_testcase1.py')
 # 注意：当testloader和testsuite添加了相同的测试用例时，不重复执行，只执行一次
 
 
